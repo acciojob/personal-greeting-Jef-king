@@ -9,7 +9,7 @@ const App = () => {
     if(x.trim===null){
       document.getElementById('t').innerText=`1`;
     }else{
-      document.getElementById('t').innerText=`Hello ${x}`;
+      document.getElementById('t').innerText=`Hello ${x}!`;
     }
   }
   return (
